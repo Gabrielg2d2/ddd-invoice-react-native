@@ -25,7 +25,7 @@
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
-    "server": "json-server --watch ./data/db.json --port 3334",
+    "server": "json-server --watch ./data/db.json --port 3001",
     "dev": "npm run server & npm start",
     "test": "jest --watchAll=false",
     "test:coverage": "jest --coverage",

@@ -13,7 +13,7 @@ export const useHome = () => {
   });
 
   const mainFilterInvoices = new MainFilterInvoices({
-    url: "http://localhost:3334/invoices",
+    url: "http://localhost:3001/invoices",
     bodyFilter,
     methodPost,
   });
